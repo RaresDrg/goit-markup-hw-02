@@ -1,8 +1,8 @@
 :root {
-  --main-font-family: 'Roboto', sans-serif;
+  --main-font-family: "Roboto", sans-serif;
   --main-color: #212121;
   --second-color: #757575;
-  --hover-focus-color: #2196F3;
+  --hover-focus-color: #2196f3;
 }
 
 body {
@@ -25,7 +25,7 @@ ul {
 }
 
 .company-logo-header .logo-name-header {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .navigation-link,
@@ -41,21 +41,25 @@ ul {
   color: var(--second-color);
 }
 
-.navigation-link:focus, .navigation-link:hover,
-.contact-link-header:focus, .contact-link-header:hover,
-.location-link-footer:focus, .location-link-footer:hover,
-.contact-link-footer:focus, .contact-link-footer:hover {
+.navigation-link:focus,
+.navigation-link:hover,
+.contact-link-header:focus,
+.contact-link-header:hover,
+.location-link-footer:focus,
+.location-link-footer:hover,
+.contact-link-footer:focus,
+.contact-link-footer:hover {
   color: var(--hover-focus-color);
 }
 
 /* MAIN: WebStudio */
 .company-motto {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .company-motto .title {
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
@@ -63,8 +67,8 @@ ul {
 }
 
 .request-service-button {
-  background-color: #2196F3;
-  color: #FFFFFF;
+  background-color: #2196f3;
+  color: #ffffff;
   font-family: var(--main-font-family);
   font-weight: 700;
   font-size: 16px;
@@ -103,7 +107,7 @@ ul {
 
 /* MAIN: Portfolio */
 .filter-button {
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
   color: var(--main-color);
   font-family: var(--main-font-family);
   font-weight: 500;
@@ -115,8 +119,8 @@ ul {
 
 .filter-button:hover,
 .filter-button:focus {
-  color: #FFFFFF;
-  background-color: #2196F3;
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .project-title {
@@ -129,10 +133,9 @@ ul {
   color: var(--second-color);
 }
 
-
 /* FOOTER */
 footer {
-  background-color: #2F303A;
+  background-color: #2f303a;
 }
 
 .company-logo-footer {
@@ -141,11 +144,11 @@ footer {
   font-size: 26px;
   line-height: 1.174;
   text-decoration: none;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .company-logo-footer .logo-name-footer {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .location-link-footer,
@@ -158,10 +161,10 @@ footer {
 
 .location-link-footer {
   line-height: 1.172;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .contact-link-footer {
   line-height: 1.143;
-  color: #FFFFFF99;
+  color: #ffffff99;
 }
